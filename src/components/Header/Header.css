@@ -1,0 +1,48 @@
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to left,purple, pink );
+    
+}
+
+.header-nav a {
+   
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+.menu{
+    margin-right: 50px;
+    
+}
+
+
+.menu-link{
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+}
+
+
+.menu-link:hover{
+   color: rgb(189, 90, 33);
+   /* background-color: rgb(236, 247, 255); */
+   background-image: linear-gradient(to left, rgba(140, 197, 48, 0.685), skyblue);
+
+    
+}
+
+.planet {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(56, 56, 161);
+    margin-left: 50px;
+}
+.planet:hover{
+    color: rgb(32, 9, 240);
+}

@@ -1,0 +1,32 @@
+.question-ans {
+    padding: 80px 20px;
+    
+}
+
+.question-container {
+    grid-template-columns: repeat(3, 3fr);
+    display: grid;
+    gap: 32px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+h1.Ask-head {
+    margin-bottom: 60px;
+}
+.faq-card {
+    padding: 30px;
+    background-color: #fcf0f0;
+    border-radius: 7px;
+}
+
+
+
+/* mobile version */
+
+@media screen and (max-width: 768px) {
+    .question-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    
+}

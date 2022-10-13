@@ -1,0 +1,14 @@
+.container {
+    background-color: rgb(250, 233, 233);
+}
+.chart {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+   background-color: rgb(250, 245, 245);
+   
+}
+

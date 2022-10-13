@@ -1,0 +1,71 @@
+/* .topics-card {
+    grid-template-columns: repeat(3, 1fr);
+    /* display: grid; */
+    /* display: grid; */
+    /* gap: 32px; */
+    /* max-width: 1240px; */
+    /* margin: 0 auto; */
+/* } */
+
+.card {
+
+    padding: 30px;
+    outline: none;
+    background-color: #fcf0f0;
+    border-radius: 7px;
+    background: linear-gradient(#bddae1, #a3aaba);
+    /* margin: 0 auto; */
+    box-shadow: 
+    5px 5px 5px rgba(0,0,0,0.1),
+    15px 15px 15px rgba(0,0,0,0.1),
+    20px 20px 20px rgba(0,0,0,0.1),
+    30px 30px 30px rgba(0,0,0,0.1);
+   
+}
+.cart:hover {
+
+    padding: 30px;
+    background-color: #fcf0f0;
+    border-radius: 7px;
+    box-shadow: 
+    5px 5px 5px rgba(0,0,0,0.1),
+    15px 15px 15px rgba(0,0,0,0.1),
+    20px 20px 20px rgba(0,0,0,0.1),
+    30px 30px 30px rgba(0,0,0,0.1);
+   
+}
+
+.total-text {
+    margin-bottom: 30px;
+}
+
+.img{
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+
+
+
+.cart-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.btn-start{
+    color: white;
+    background-color: tomato; 
+    border: none;
+    border-radius: 5px;
+    padding: 2px 20px;
+    cursor: pointer;
+    background-size: 200%;
+    transition: 0.5s;
+}
+.btn-start:hover{
+    color: white;
+    background-position: right;
+    background-image: linear-gradient(to left, #FFC312, #EE5A24, #FFC312);
+    padding: 2px 35px;
+}
